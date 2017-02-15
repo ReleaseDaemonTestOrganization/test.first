@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sitecore.Data.Items;
+using System;
 
 namespace test.first
 {
@@ -7,7 +8,8 @@ namespace test.first
     public void ShowMessage()
     {
       Console.WriteLine("Hello World!");
-      Console.WriteLine("Hello World!")
+      Console.WriteLine("Hello World!");
+      Item itm = null;
     }
   }
 }
