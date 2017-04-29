@@ -10,7 +10,6 @@ namespace test.first
       Console.WriteLine("Hello World!");
       Console.WriteLine("Hello World!");
       Console.WriteLine("Hello World!");
-      Item itm = null;
     }
   }
 }
