@@ -1,5 +1,6 @@
 ﻿using Sitecore.Data.Items;
 using System;
+using System.Threading;
 
 namespace test.first
 {
@@ -13,7 +14,7 @@ namespace test.first
       Console.WriteLine("Hello World!");
       Console.WriteLine("Hello World!");
 
-
+      Thread.Sleep(1000);
     }
   }
 }
